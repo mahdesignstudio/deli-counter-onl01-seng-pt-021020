@@ -24,5 +24,7 @@ end
 
 def now_serving(array)
   array = []
+  array.length == 0 
+    puts "There is nobody waiting to be served!"
   binding.pry
 end 
