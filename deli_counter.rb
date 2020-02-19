@@ -1,3 +1,4 @@
+require 'pry'
 # Write your code here.
 # katz_deli should be an empty Array
 
@@ -22,5 +23,5 @@ def take_a_number(array,name)
 end 
 
 def now_serving(array) 
-
+  binding.pry
 end 
